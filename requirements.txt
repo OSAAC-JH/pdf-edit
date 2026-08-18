@@ -1,0 +1,14 @@
+# [Core 1] PDF 조작 기본 (분할, 병합, 추출, 암호화, 페이지 회전)
+pypdf>=4.0.0
+
+# [Core 2] 고속 렌더링, 이미지 변환(PNG/JPG 네이티브 지원) 및 아웃라인(북마크) 제어
+PyMuPDF>=1.24.0
+
+# [Core 3] 워터마크 및 페이지 번호 오버레이 PDF 생성
+reportlab>=4.0.0
+
+# [Core 4] PDF 손실/무손실 압축 및 최적화
+pikepdf>=8.0.0
+
+# [Extension] PDF -> Markdown 구조화 변환
+markitdown[pdf]>=0.1.0
